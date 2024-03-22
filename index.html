@@ -1,0 +1,74 @@
+
+HTML
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yahtzee Dice Roller</title>
+    <style>
+ body {
+  text-align: center;
+  background-color: #7dc4b2;
+}
+
+.description {
+  width: 800px;
+  margin: auto auto 50px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+}
+
+.dice {
+  height: 150px;
+  margin: 15px 15px 0px;
+}
+
+.lock {
+  height: 80px;
+  margin: auto 50px 30px;
+}
+
+.button {
+  background-color: #672A4E;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+  margin: 20px 15px;
+  padding: .5em .5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 10px;
+  line-height: 30px;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+  <div class='description'>
+    <h1>2D Shape Dice Roller</h1>
+    <p>Click the button to roll the dice. Each player can roll up to three times per turn.</p>
+ </div>
+   
+ <div class='dice-section'>
+   <img id='dice1' class='dice' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png'>
+  </div>
+ 
+ <div id='counter'>
+   <p>Roll Number: <span id='roll-counter'></span></p>
+ </div>
+ 
+ <div id='roll-button' class='button'>
+   Roll the Dice
+ </div>
+ 
+    <script src="yahtzee.js"></script> 
+</body>
+</html>
