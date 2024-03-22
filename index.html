@@ -53,13 +53,25 @@ p {
 </head>
 <body>
   <div class='description'>
-    <h1>3D Shape Dice Roller</h1>
-    <p>Click the button to roll the dice. Each player can roll up to three times per turn.</p>
+    <h1>3-D Shape Dice Roller</h1>
+    <p>Click the button to roll the dice. Click the lock icon to save the dice roll for the next turn. Each player can roll up to three times per turn.</p>
  </div>
    
  <div class='dice-section'>
    <img id='dice1' class='dice' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png'>
+   <img id='dice2' class='dice' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png'>
+   <img id='dice3' class='dice' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png'>
+   <img id='dice4' class='dice' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png'>
+   <img id='dice5' class='dice' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png'>
   </div>
+ 
+  <div class='lock-section'>
+   <img id='lock1' class='lock' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png'>
+   <img id='lock2' class='lock' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png'>
+   <img id='lock3' class='lock' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png'>
+   <img id='lock4' class='lock' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png'>
+   <img id='lock5' class='lock' src='https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png'>
+ </div>
  
  <div id='counter'>
    <p>Roll Number: <span id='roll-counter'></span></p>
@@ -67,6 +79,10 @@ p {
  
  <div id='roll-button' class='button'>
    Roll the Dice
+ </div>
+ 
+ <div id='reset-button' class='button'>
+  Reset 
  </div>
  
     <script src="yahtzee.js"></script> 
