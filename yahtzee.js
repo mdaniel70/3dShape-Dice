@@ -1,11 +1,11 @@
 //Save all image src paths as variables
 let diceImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.009.png';
-let dice1ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.001.png';
-let dice2ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.002.png';
-let dice3ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.003.png';
-let dice4ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.004.png';
-let dice5ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.005.png';
-let dice6ImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.006.png';
+let dice1ImagePath = 'https://raw.githubusercontent.com/mdaniel70/3dShape-Dice/main/3dice1.png';
+let dice2ImagePath = 'https://raw.githubusercontent.com/mdaniel70/3dShape-Dice/main/3dice2.png';
+let dice3ImagePath = 'https://raw.githubusercontent.com/mdaniel70/3dShape-Dice/main/3dice3.png';
+let dice4ImagePath = 'https://raw.githubusercontent.com/mdaniel70/3dShape-Dice/main/3dice4.png';
+let dice5ImagePath = 'https://raw.githubusercontent.com/mdaniel70/3dShape-Dice/main/3dice5.png';
+let dice6ImagePath = 'https://raw.githubusercontent.com/mdaniel70/3dShape-Dice/main/3dice6.png';
 let lockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.007.png';
 let unlockImagePath = 'https://raw.githubusercontent.com/mdaniel70/Player/main/dice.008.png';
 
